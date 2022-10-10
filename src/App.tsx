@@ -107,7 +107,7 @@ function App() {
           </Button>
 
           <Button onClick={() => value.length >= 1 && addSimbol(".")}>.</Button>
-          <Button>0</Button>
+          <Button onClick={() => value.length >= 1 && addSimbol("0")} >0</Button>
           <Button onClick={() => value.length >= 1 && addSimbol(" / ")}>
             /
           </Button>
